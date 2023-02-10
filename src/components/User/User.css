@@ -1,0 +1,44 @@
+.container {
+    align-items: flex-end
+}
+
+.card {
+    min-height: 12rem;
+    border-width: 4px;
+    border-color: rgb(167, 56, 56);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.navbar {
+    font-size: 1.8rem;
+}
+
+.wrapper img {
+    width: 6rem;
+    height: 6rem;
+}
+
+@media (max-width: 992px) {
+    .card-title {
+        font-size: .8rem;
+    }
+
+    .card-body {
+        font-size: .7rem;
+    }
+
+    .card-body div {
+        margin: .4rem 0;
+        padding: 0;
+    }
+
+    .card-body button {
+        width: 100%;
+    }
+}
